@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabs</title>
+    <style>
+        body {
+            font-family: Verdana, sans-serif;
+        }
+
+        button {
+            width: calc(100% / 3);
+            padding: 1em;
+            margin-bottom: 1em;
+        }
+
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<tab-panel>
+    <div data-tabname="one">Tab one</div>
+    <div data-tabname="two" class="hidden">Tab two</div>
+    <div data-tabname="three" class="hidden">Tab three</div>
+</tab-panel>
+<script src="script-c.js"></script>
+
+</body>
+</html>
